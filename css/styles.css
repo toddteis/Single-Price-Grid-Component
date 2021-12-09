@@ -13,7 +13,7 @@
  body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
-    background-color: var(--grayish-blue);
+    background-color: var(--light-gray);
  }
 
 .page {
@@ -139,6 +139,10 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 600px) {
+    .header {
+        width: 600px;
+    }
+
     .cta {
         border-radius: 0 0 0 5px;
     }
