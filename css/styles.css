@@ -16,7 +16,7 @@
     background-color: var(--grayish-blue);
  }
 
-.wrapper {
+.page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +32,26 @@
 
  .header {
     width: 300px;
-    height: 200px;
-    background-color: var(--light-gray);
+    height: 220px;
+    background-color: white;
     padding: 20px;
     border-radius: 5px 5px 0 0;
+ }
+
+ .header h3 {
+     color: var(--cyan);
+     margin-bottom: 15px;
+ }
+
+ .header h4 {
+     color: var(--bright-yellow);
+     margin-bottom: 15px;
+ }
+
+ .header p {
+     color: gray;
+     font-size: 14px;
+     line-height: 1.5;
  }
 
  .main {
