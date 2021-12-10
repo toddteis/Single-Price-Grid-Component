@@ -79,7 +79,7 @@
 }
 
 .cta-price {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .cta-amount {
@@ -94,7 +94,7 @@
 }
 
 .cta-offer {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .btn-cta {
@@ -177,6 +177,15 @@ footer {
     .cta {
         border-radius: 0 0 0 8px;
         height: 260px;
+        padding: 40px;
+    }
+    
+    .cta-offer {
+        margin-bottom: 32px;
+    }
+
+    .btn-cta {
+        height: 45px;
     }
 
     .about {
