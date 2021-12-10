@@ -1,5 +1,6 @@
 :root {
     --cyan: hsl(179, 62%, 43%);
+    --cyan-light: hsl(179, 47%, 52%);
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue:hsl(218, 22%, 67%);
@@ -114,8 +115,20 @@
     padding: 20px;
     width: 320px;
     height: 200px;
-    background-color: var(--light-gray);
+    background-color: var(--cyan-light);
     border-radius: 0 0 5px 5px;
+    color:var(--light-gray);
+ }
+
+ .about h3 {
+     color: white;
+     margin-bottom: 15px;
+ }
+
+ .about ul {
+     list-style-type: none;
+     font-size: 14px;
+     line-height: 1.5;
  }
  
 
