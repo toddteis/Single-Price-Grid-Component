@@ -36,7 +36,7 @@
     height: 220px;
     background-color: white;
     padding: 20px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 8px 8px 0 0;
  }
 
  .header h3 {
@@ -117,7 +117,7 @@
     width: 320px;
     height: 200px;
     background-color: var(--cyan-light);
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 8px 8px;
     color:var(--light-gray);
  }
 
@@ -155,13 +155,32 @@ footer {
 @media screen and (min-width: 640px) {
     .header {
         width: 640px;
+        padding: 40px;
     }
+    
+    .header h3 {
+        font-size: 24px;
+         margin-bottom: 25px;
+     }
+    
+     .header h4 {
+         font-size: 18px;
+         font-weight: 700;
+         margin-bottom: 10px;
+     }
+    
+     .header p {
+         font-size: 16px;
+         line-height: 1.8;
+     }
 
     .cta {
-        border-radius: 0 0 0 5px;
+        border-radius: 0 0 0 8px;
+        height: 260px;
     }
 
     .about {
-        border-radius: 0 0 5px 0;
+        border-radius: 0 0 8px 0;
+        height: 260px;
     }
 }
