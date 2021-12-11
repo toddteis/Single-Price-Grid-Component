@@ -31,6 +31,8 @@
     width: 640px;
  }
 
+/* HEADER SECTION */
+
  .header {
     width: 320px;
     height: 220px;
@@ -60,6 +62,8 @@
     flex-wrap: wrap;
     justify-content: center;
  }
+
+/* CALL TO ACTION SECTION */
 
 .cta {
     width: 320px;
@@ -111,6 +115,8 @@
 .btn-cta:hover {
     cursor: pointer;
 }
+
+/* ABOUT SECTION */
 
 .about {
     padding: 20px;

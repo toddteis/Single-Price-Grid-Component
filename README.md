@@ -54,9 +54,12 @@ Users should be able to:
 
 This was my first project using mobile-first workflow. I found working this way a lot easier then working with desktop first. I tend to be thinking about getting the layout to a desktop layout while working on the mobile layout, which hasn't been my thought process up to now working the other way round.
 
+Learnt more about semantic html5 markup and used main, article, section and footer tags in this project.
+
 ### Continued development
 
 I will continued to use mobile-first workflow and flexbox. I would like to use CSS Grid in future challenges.
+I will also use semactic html5 markup in future projects and implement then during the project and not at the end, as in this project.
 
 ### Useful resources
 
